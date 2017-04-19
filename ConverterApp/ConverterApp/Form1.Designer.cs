@@ -81,7 +81,7 @@
             // 
             // btn_Exit
             // 
-            this.btn_Exit.Location = new System.Drawing.Point(106, 134);
+            this.btn_Exit.Location = new System.Drawing.Point(105, 134);
             this.btn_Exit.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(56, 19);
@@ -92,7 +92,7 @@
             // 
             // txt_Convert
             // 
-            this.txt_Convert.Location = new System.Drawing.Point(81, 110);
+            this.txt_Convert.Location = new System.Drawing.Point(72, 110);
             this.txt_Convert.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Convert.Name = "txt_Convert";
             this.txt_Convert.ReadOnly = true;
@@ -123,7 +123,7 @@
             // 
             // btn_kilometres_to_miles
             // 
-            this.btn_kilometres_to_miles.Location = new System.Drawing.Point(81, 87);
+            this.btn_kilometres_to_miles.Location = new System.Drawing.Point(72, 87);
             this.btn_kilometres_to_miles.Margin = new System.Windows.Forms.Padding(2);
             this.btn_kilometres_to_miles.Name = "btn_kilometres_to_miles";
             this.btn_kilometres_to_miles.Size = new System.Drawing.Size(122, 19);

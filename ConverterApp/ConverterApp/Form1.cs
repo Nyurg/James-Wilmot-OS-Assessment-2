@@ -23,7 +23,7 @@ namespace ConverterApp
             // Global Variables and Constants
             conversion_ratio[0] = 0.393701; //Centimetres to inches
             conversion_ratio[1] = 3.28084; //Metres to Feet
-            conversion_ratio[2] = 32; //Celsius to Fahrenheit
+            conversion_ratio[2] = 1.8; //Celsius to Fahrenheit
             conversion_ratio[3] = 0.0328084; //Centimetres to Feet
             conversion_ratio[4] = 0.621371; //Kilometres to Miles
             
@@ -63,7 +63,7 @@ namespace ConverterApp
             double checkiftrue;
             if (double.TryParse(txt_UnitOfMeasure.Text, out checkiftrue))
             {
-                txt_Convert.Text = Convert.ToString(Convert.ToDouble(txt_UnitOfMeasure.Text) * conversion_ratio[2]);
+                txt_Convert.Text = Convert.ToString(Convert.ToDouble(txt_UnitOfMeasure.Text) * conversion_ratio[2] + 32);
             }
             else
             {
